@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TateGallery", "TateGallery\TateGallery.csproj", "{42787FDF-3FC8-4631-8BC6-7F632E32C6E6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TateGallery", "TateGallery\TateGallery.csproj", "{3591D547-D3A6-4773-A1CA-606B8CA5F149}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{42787FDF-3FC8-4631-8BC6-7F632E32C6E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{42787FDF-3FC8-4631-8BC6-7F632E32C6E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{42787FDF-3FC8-4631-8BC6-7F632E32C6E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{42787FDF-3FC8-4631-8BC6-7F632E32C6E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3591D547-D3A6-4773-A1CA-606B8CA5F149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3591D547-D3A6-4773-A1CA-606B8CA5F149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3591D547-D3A6-4773-A1CA-606B8CA5F149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3591D547-D3A6-4773-A1CA-606B8CA5F149}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
