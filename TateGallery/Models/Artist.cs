@@ -26,6 +26,8 @@ namespace TateGallery.Models
 
         public virtual ICollection<Movement> Movements { get; set; }
 
+        public virtual ICollection<Artwork> Artworks { get; set; }
+
         public string StartLetter { get; set; }
 
         public int TotalWorks { get; set; }

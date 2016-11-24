@@ -23,12 +23,22 @@ namespace TateGallery.Persistence
         public DbSet<Time> Times { get; set; }
 
         public DbSet<Movement> Movements { get; set; }
+        public DbSet<Era> Eras { get; set; }
+
+        public DbSet<Artwork> Artworks { get; set; }
+
+        public DbSet<CatalogueGroup> CatalogueGroups { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<Artist>().HasMany(s => s.Movements);
+
+            modelBuilder.Entity<Artwork>()
+                .HasOptional(s => s.CatalougeGroup);
+
+
 
         }
     }
